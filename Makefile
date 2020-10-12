@@ -9,4 +9,4 @@ main.o: main.cpp
 	$(CXX) $(CXXFLAGS) -c main.cpp
 	
 clean:
-	del -f ${BINARIES} *.o *.exe *.gch
+	rm -f ${BINARIES} *.o *.exe *.gch
